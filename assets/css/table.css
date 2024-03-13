@@ -1,0 +1,24 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td{
+    padding: 20px;
+    cursor: pointer;
+}
+.box-table{
+    width: 80%;
+    height: 700px;
+    overflow-x: auto;
+    overflow-y: auto;
+    /* overflow-y: scroll; */
+}
+tbody tr:hover{
+    background-color: #86E5FA;
+}
+thead{
+    background-color: #86E5FA;
+}
+tbody tr:nth-child(even)
+{   background-color: #E6F8FC; }
